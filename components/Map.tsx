@@ -74,7 +74,7 @@ export default function Map({
       zoom={12}
       style={{ height: "100%", width: "100%" }}
     >
-      {/* 🌙 Light / Dark Tile Toggle */}
+      
       <TileLayer
         url={
           darkMap
@@ -119,7 +119,7 @@ export default function Map({
         />
       ))}
 
-      {/* Source Marker */}
+    
       {source && <Marker position={source} />}
 
       {/* Destination Marker */}

@@ -56,7 +56,7 @@ export default function FloodReportPanel({ onReport }: Props) {
         onReport({ lat, lon, severity, note });
       }
 
-      alert("Flood reported successfully 🌊");
+      alert("Flood reported successfully");
       setOpen(false);
       setNote("");
       setManualLocation("");

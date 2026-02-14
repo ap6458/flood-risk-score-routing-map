@@ -213,7 +213,7 @@ export default function Home() {
     <div className="app">
       <aside className="sidebar">
         <h1 className="title">
-          🌊 Flood Risk Route Planner
+           OPTIROUTE
         </h1>
 
         <RouteInput onRoute={handleRoute} />
@@ -221,7 +221,7 @@ export default function Home() {
 
         {routes.length > 0 && (
           <div style={{ marginTop: "20px" }}>
-            <h3>Available Routes</h3>
+            <h3 style={{color: "white"}}>Available Routes</h3>
 
             {routes.map((r, i) => (
               <button
@@ -235,11 +235,11 @@ export default function Home() {
                   borderRadius: "14px",
                   border:
                     selectedRoute === i
-                      ? "2px solid #452711"
+                      ? "2px solid #2563eb"
                       : "1px solid #e5e7eb",
                   background:
                     selectedRoute === i
-                      ? "#fff0e0"
+                      ? "#bcb5cd"
                       : "#f9fafb",
                   cursor: "pointer",
                   textAlign: "left",

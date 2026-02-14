@@ -123,7 +123,7 @@ export default function RouteInput({ onRoute }: Props) {
           type="button"
           title="Voice input"
           onClick={() => startVoiceInput("source")}
-          style={{ borderRadius: "8px", cursor: "pointer",backgroundColor: "#692f10" }}
+          style={{ borderRadius: "8px", cursor: "pointer",backgroundColor: "#0f172a" }}
         >
           🎤
         </button>
@@ -153,7 +153,7 @@ export default function RouteInput({ onRoute }: Props) {
         onClick={useMyLocation}
         style={{
           margin: "14px 0",
-          backgroundColor: "#692f10",
+          backgroundColor: "#0f172a",
           color: "white",
         }}
       >
@@ -176,7 +176,7 @@ export default function RouteInput({ onRoute }: Props) {
           type="button"
           title="Voice input"
           onClick={() => startVoiceInput("destination")}
-          style={{ borderRadius: "8px", cursor: "pointer" ,backgroundColor:" #692f10"}}
+          style={{ borderRadius: "8px", cursor: "pointer" ,backgroundColor:" #0f172a"}}
         >
           🎤
         </button>
