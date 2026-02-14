@@ -13,7 +13,7 @@ A web-based flood risk routing system that displays real road routes and ETAs us
 - React
 - Leaflet (OSM)
 - Mapbox APIs
-- -mongodb
+- Mongodb
   
 
 ## Setup
