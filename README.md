@@ -70,3 +70,64 @@ Routes are sorted from **lowest risk → highest risk**.
 ---
 
 ## 📂 Project Structure
+D:\FLOOD RISK MAP\FLOOD-RISK-MAP\APP
+|   favicon.ico
+|   globals.css
+|   Image.jpg
+|   layout.tsx
+|   page.tsx
+|
+\---api
+    \---reports
+            route.ts
+
+
+D:\FLOOD RISK MAP\FLOOD-RISK-MAP\COMPONENTS
+    FloodLegend.tsx
+    FloodReportPanel.tsx
+    Map.tsx
+    MapClient.tsx
+    RouteInput.tsx
+    RouteLayer.tsx
+    WaterloggingLayer.tsx
+
+
+
+D:\FLOOD RISK MAP\FLOOD-RISK-MAP\LIB
+    geocode.ts
+    getMapboxRoute.ts
+    getUserLocation.ts
+    mongodb.ts
+    searchMapbox.ts
+
+
+
+D:\FLOOD RISK MAP\FLOOD-RISK-MAP\MODELS
+    FloodReport.ts
+
+
+
+D:\FLOOD RISK MAP\FLOOD-RISK-MAP\PUBLIC
+|   file.svg
+|   globe.svg
+|   next.svg
+|   vercel.svg
+|   window.svg
+|
+\---data
+        flood_zones_mumbai.geojson
+        waterlogging_points.csv
+        waterlogging_points.geojson
+
+
+D:\FLOOD RISK MAP\FLOOD-RISK-MAP\DATA
+    flood_zones.json
+    flood_zones_mumbai.geojson
+    flood_zones_mumbai.qmd
+    Videos - Shortcut.lnk
+    waterlogging_points.csv
+    waterlogging_points.geojson
+    waterlogging_points.qmd
+
+
+
