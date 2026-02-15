@@ -215,6 +215,6 @@ MIT License
 
 ## 👨‍💻 Author
 
-**Aryan Parab**
-**Arya Shirke**
+1.*Aryan Parab*
+2.*Arya Shirke*
 
