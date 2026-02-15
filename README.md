@@ -104,3 +104,117 @@ flood-risk-map/
 ├── tsconfig.json
 └── README.md
 ```
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/ap6458/flood-risk-score-routing-map.git
+cd flood-risk-score-routing-map
+---
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 3️⃣ Configure Environment Variables
+
+Create a file named:
+
+```
+.env.local
+```
+
+Add the following:
+
+```env
+NEXT_PUBLIC_MAPBOX_TOKEN=YOUR_MAPBOX_TOKEN
+MONGODB_URI=mongodb+srv://flooduser:flood12345@cluster0.5i4banq.mongodb.net/?appName=Cluster0
+
+```
+
+#### Where to get:
+*Mapbox Token*
+1. Go to https://account.mapbox.com
+2. Create a Public Token
+3. Ensure Directions API & Geocoding API are enabled
+
+
+- Example Local format for mongodb uri:
+
+```
+mongodb://127.0.0.1:27017/floodDB
+```
+
+---
+-Install node.js
+-Install npm:
+```bash
+npm install
+```
+### 4️⃣ Run Development Server
+
+```bash
+
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+
+
+## 🗄 Database Details
+
+Database Name:
+```
+floodDB
+```
+
+Collection:
+```
+reports
+```
+
+Stored Fields:
+- lat
+- lon
+- severity
+- timestamp (optional future improvement)
+
+---
+
+## 📈 Future Enhancements
+
+
+- User authentication system
+- Save favorite routes
+- Mobile optimized UI
+
+
+---
+
+
+
+## 📜 License
+
+MIT License
+
+---
+
+## 👨‍💻 Author
+
+**Aryan Parab**
+**Arya Shirke**
+
