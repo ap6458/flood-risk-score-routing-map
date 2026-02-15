@@ -154,7 +154,7 @@ mongodb://127.0.0.1:27017/floodDB
 
 ---
 -Install node.js
--Install npm:
+
 ```bash
 npm install
 ```
