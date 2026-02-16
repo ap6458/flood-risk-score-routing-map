@@ -7,9 +7,7 @@
   padding: 0;
 }
 
-/* =========================
-   BODY
-   ========================= */
+
 body {
   font-family: "Poppins", system-ui, -apple-system, sans-serif;
   background: #bf9675;
@@ -18,9 +16,7 @@ body {
   
 }
 
-/* =========================
-   APP LAYOUT
-   ========================= */
+
 .app {
   display: flex;
   height: 100vh;
@@ -118,9 +114,7 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px #24960a;
 }
-/* =========================
-   ROUTE LIST
-   ========================= */
+
 .route-list {
   margin-top: 26px;
 }
@@ -131,9 +125,7 @@ body {
   color: #452711;
 }
 
-/* =========================
-   ROUTE CARDS
-   ========================= */
+
 .route-card {
   padding: 16px;
   margin-bottom: 16px;
@@ -188,23 +180,13 @@ body {
   background: #f0f4ff;
 }
 
- 
 
-
-
-
-
-/* =========================
-   MAP AREA
-   ========================= */
 .map-area {
   flex: 1;
   box-shadow: -10px 0 30px;
 }
 
-/* =========================
-   LEAFLET MAP
-   ========================= */
+
 .leaflet-container {
   height: 100%;
   width: 100%;
